@@ -31,7 +31,7 @@ function App() {
             </WalletMultiButton>
             <>
               {wallet.connected && (
-                <WalletDisconnectButton>disconnect wallet</WalletDisconnectButton>
+                <WalletDisconnectButton>disconnect wallet</WalletDisconnectButton> //There are 4 wallet options
               )}
             </>
             </div>
